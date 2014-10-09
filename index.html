@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Project Avant</title>
+		
+		<meta name="description" content="Avant ">
+		<meta name="keywords" content="">
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet">
+	<!--SCRIPTS-->
+<script src="http://bhanuc.github.io/Avant/js/jquery.min.js"></script>
+<script src="http://bhanuc.github.io/Avant/js/config.js"></script>
+<script src="http://bhanuc.github.io/Avant/js/html5shiv.js"></script>
+<script src="http://bhanuc.github.io/Avant/js/jquery.dropotron.min.js"></script>
+<style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">@-ms-viewport{width:device-width}</style><style type="text/css">body{min-width:1200px}.container{margin-left:auto;margin-right:auto;width:1200px}.container.small{width:900px}.container.big{width:100%;max-width:1500px;min-width:1200px}</style><style type="text/css">.\31 2u{width:100%}.\31 1u{width:91.6666666667%}.\31 0u{width:83.3333333333%}.\39 u{width:75%}.\38 u{width:66.6666666667%}.\37 u{width:58.3333333333%}.\36 u{width:50%}.\35 u{width:41.6666666667%}.\34 u{width:33.3333333333%}.\33 u{width:25%}.\32 u{width:16.6666666667%}.\31 u{width:8.3333333333%}.\31 u,.\32 u,.\33 u,.\34 u,.\35 u,.\36 u,.\37 u,.\38 u,.\39 u,.\31 0u,.\31 1u,.\31 2u{float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}.row.flush{margin-left:0}.row.flush>*{padding:0!important}</style><style type="text/css">.row>*{padding:40px 0 0 40px}.row+.row>*{padding-top:40px}.row{margin-left:-40px}.row.half>*{padding:20px 0 0 20px}.row.half+.row.half>*{padding-top:20px}.row.half{margin-left:-20px}.row.quarter>*{padding:10px 0 0 10px}.row.quarter+.row.quarter>*{padding-top:10px}.row.quarter{margin-left:-10px}.row.oneandhalf>*{padding:60px 0 0 60px}.row.oneandhalf+.row.oneandhalf>*{padding-top:60px}.row.oneandhalf{margin-left:-60px}.row.double>*{padding:80px 0 0 80px}.row.double+.row.double>*{padding-top:80px}.row.double{margin-left:-80px}</style><style type="text/css">.row:after{content:'';display:block;clear:both;height:0}.row:first-child>*{padding-top:0!important}.row>*{padding-top:0}</style><style type="text/css">.not-desktop{display:none!important}.only-mobile,.only-1000px{display:none!important}</style><style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{-webkit-text-size-adjust:none}</style><style type="text/css">@-ms-viewport{width:device-width}</style><style type="text/css">body{min-width:960px}.container{margin-left:auto;margin-right:auto;width:960px}.container.small{width:720px}.container.big{width:100%;max-width:1200px;min-width:960px}</style><style type="text/css">.\31 2u{width:100%}.\31 1u{width:91.6666666667%}.\31 0u{width:83.3333333333%}.\39 u{width:75%}.\38 u{width:66.6666666667%}.\37 u{width:58.3333333333%}.\36 u{width:50%}.\35 u{width:41.6666666667%}.\34 u{width:33.3333333333%}.\33 u{width:25%}.\32 u{width:16.6666666667%}.\31 u{width:8.3333333333%}.\31 u,.\32 u,.\33 u,.\34 u,.\35 u,.\36 u,.\37 u,.\38 u,.\39 u,.\31 0u,.\31 1u,.\31 2u{float:left;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.\-11u{margin-left:91.6666666667%}.\-10u{margin-left:83.3333333333%}.\-9u{margin-left:75%}.\-8u{margin-left:66.6666666667%}.\-7u{margin-left:58.3333333333%}.\-6u{margin-left:50%}.\-5u{margin-left:41.6666666667%}.\-4u{margin-left:33.3333333333%}.\-3u{margin-left:25%}.\-2u{margin-left:16.6666666667%}.\-1u{margin-left:8.3333333333%}.row.flush{margin-left:0}.row.flush>*{padding:0!important}</style><style type="text/css">.row>*{padding:20px 0 0 20px}.row+.row>*{padding-top:20px}.row{margin-left:-20px}.row.half>*{padding:10px 0 0 10px}.row.half+.row.half>*{padding-top:10px}.row.half{margin-left:-10px}.row.quarter>*{padding:5px 0 0 5px}.row.quarter+.row.quarter>*{padding-top:5px}.row.quarter{margin-left:-5px}.row.oneandhalf>*{padding:30px 0 0 30px}.row.oneandhalf+.row.oneandhalf>*{padding-top:30px}.row.oneandhalf{margin-left:-30px}.row.double>*{padding:40px 0 0 40px}.row.double+.row.double>*{padding-top:40px}.row.double{margin-left:-40px}</style><style type="text/css">.row:after{content:'';display:block;clear:both;height:0}.row:first-child>*{padding-top:0!important}.row>*{padding-top:0}</style><style type="text/css">.not-desktop,.not-1000px{display:none!important}.only-mobile{display:none!important}</style>
+<link rel="stylesheet" type="text/css" href="http://bhanuc.github.io/Avant/styles/style.css">
+<link rel="stylesheet" type="text/css" href="http://bhanuc.github.io/Avant/styles/style-desktop.css"><link rel="stylesheet" type="text/css" href="http://bhanuc.github.io/Avant/styles/style-1000px.css"><script src="http://bhanuc.github.io/Avant/styles/skel.min.js"></script>
+<script src="http://bhanuc.github.io/Avant/styles/skel-panels.min.js"></script>
+
+<!--SCRIPTS END-->
+
+<!--STYLES-->
+
+<link rel="stylesheet" href="http://project-avant.org/styles/ie8.css">
+<link rel="stylesheet" href="http://project-avant.org/styles/skel-noscript.css">
+<link rel="stylesheet" href="http://project-avant.org/styles/style-mobile.css">
+<link rel="stylesheet" href="http://project-avant.org/styles/style.css">
+<!--STYLES END-->
+
+	</head>		
+<title>Project Avant</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Avant " />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div id="header-wrapper" class="wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+						
+							<!-- Header -->
+								<div id="header">
+									
+									<!-- Logo -->
+										<div id="logo">
+											<h1><a href="#">Project Avant</a></h1>
+											<span class="byline">A step towards a better primary education 
+</span>
+										</div>
+									<!-- /Logo -->
+									
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li class="current_page_item"><a href="/">Home</a></li>
+												<li><a href="">Our Core Innovations</a></li>
+												<li><a href="">Research and Development</a></li>
+												<li><a href="">Our Media Presence</a></li>
+                                                <li><a href="">Gallery</a></li>
+                                                <li><a href="">About Us</a></li>
+											</ul>
+										</nav>
+									<!-- /Nav -->
+
+								</div>
+							<!-- /Header -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Header Wrapper -->
+		
+		<!-- Intro Wrapper -->
+			<div id="intro-wrapper" class="wrapper wrapper-style1">
+				<div class="title">The Introduction</div>
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							
+							<!-- Intro -->
+								<section id="intro">
+									<p class="style1">So in case you were wondering what Project-Avant is all about ...</p>
+									<p class="style2">
+										<img src="images/banner2.jpg" width=512 height=336>
+									</p>
+									<p class="style3">Our Project is dedicated to improving the Primary education and tackle problems associated with it. </p>
+									
+									<ul class="actions">
+										<li><a href="#" class="button button-style3 button-big">Proceed</a></li>
+									</ul>
+								</section>
+							<!-- /Intro -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Intro Wrapper -->
+		
+		<!-- Main Wrapper -->
+			<div class="wrapper wrapper-style2">
+				<div class="title">The Details</div>
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							
+							<!-- Main -->
+								<div id="main">
+									
+									<!-- Image -->
+																					<img src="images/pic01.jpg" alt="" />
+										
+									<!-- /Image -->
+									
+									<!-- Features -->
+										<section id="features">
+											<header class="style1">
+												<h2>We are promoting Research Oriented Exercise in GTIS Schools</h2>
+												<p class="byline">In our First Phase we are Targetting 10 GLobal Technology Incubated Schools(GTIS) in each block.</p>
+                                                <hr>
+							<p class="byline">Special Feature of GTIS are</p>
+											</header>
+											<div class="feature-list">
+												<div>
+													<div class="row">
+														<div class="6u">
+															<section>
+																<h3 class="fa fa-comment">AVANT Smart Class InfraStructure</h3>
+																<p>Currently we have installed projectors and have special Science Experiment Kits made by Dr HC Verma in the schools</p>
+															</section>
+														</div>
+														<div class="6u">
+															<section>
+																<h3 class="fa fa-refresh">AVANT Udyog Darshan</h3>
+																<p>We are giving training and information about organic farming to the students</p>
+															</section>
+														</div>
+													</div>
+													<div class="row">
+														<div class="6u">
+															<section>
+																<h3 class="fa fa-picture-o">AVANT Cropsee</h3>
+																<p>
+
+                                                    </p>
+															</section>
+														</div>
+														<div class="6u">
+															<section>
+																<h3 class="fa fa-cog">AVANT Sport Initiative</h3>
+																<p>Physical Development is an important aspect of Overall development and we understand that.</p>
+															</section>
+														</div>
+													</div>
+												
+												</div>
+											</div>
+											<ul class="actions actions-centered">
+												
+												<li><a href="#" class="button button-style2 button-big">Learn More</a></li>
+											</ul>
+										</section>
+									<!-- /Features -->
+									
+								</div>
+							<!-- /Main -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Main Wrapper -->
+		
+		<!-- Highlights Wrapper -->
+			<div class="wrapper wrapper-style3">
+				<div class="title">The Drivers</div>
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							
+							<!-- Highlights -->
+								<div id="highlights">
+									<div>
+										<div class="row">
+											<div class="3u">
+												<section class="highlight highlight-one">
+													<a  class="image image-full"><img src="images/teacher.png" alt="" height="170" width="225"></a>
+													<h3><a href="#">Teachers</a></h3>
+													<p>“Those who educate children well are more to be honored than they who produce them; for these only gave them life, those the art of living well.”<br> Aristotle</p>
+								</section>
+											</div><div class="3u">
+												<section class="highlight highlight-one">
+													<a  class="image image-full"><img src="images/student.png" alt="" height="170" width="225"/></a>
+													<h3><a href="#">Students</a></h3>
+													<p>All students can learn.<br>
+Christopher Morley </p>
+												</section>
+											</div>
+											<div class="3u">
+												<section class="highlight highlight-two">
+													<a  class="image image-full"><img src="images/parent.png" alt="" height="170" width="225" /></a>
+													<h3><a href="#">Parents</a></h3>
+													<p>Let parents bequeath to their children not riches, but the spirit of reverence.<br>
+Plato </p>
+													
+												</section>
+											</div>
+											<div class="3u">
+												<section class="highlight highlight-three">
+													<a  class="image image-full"><img src="images/InfraStructure.png" alt="" height="170" width="225" /></a>
+													<h3><a href="#">InfraStructure</a></h3>
+													<p>He who opens a school door, closes a prison.<br>
+Victor Hugo </p>
+													
+												</section>
+											</div>
+                                          
+										</div>
+                                           <p class="actions-centered"><br>TOWARDS  A  BETTER  TOMORROW  FOR  THE  YOUNG  MINDS</p>
+									</div>
+								</div>
+							<!-- /Highlights -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Highlights Wrapper -->
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper" class="wrapper">
+				<div class="title">The Rest Of It</div>
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+
+							<!-- Footer -->
+								<div id="footer">
+									<header class="style1">
+										<h2>Come and join with us in the Change !</h2>
+										<p class="byline">
+											Together We Can Make a Difference
+										</p>
+									</header>
+									<hr />
+									<div>
+										<div class="row">
+											<div class="6u">
+
+												<!-- Contact Form -->
+													<section class="footer-one">
+														<form method="post" action="mailto:avant@iitk.ac.in">
+															<div>
+																<div class="row half">
+																	<div class="6u">
+																		<input type="text" class="text" name="name" id="contact-name" placeholder="Name" />
+																	</div>
+																	<div class="6u">
+																		<input type="text" class="text" name="name" id="contact-email" placeholder="Email" />
+																	</div>
+																</div>
+																<div class="row half">
+																	<div class="12u">
+																		<textarea name="message" id="contact-message" placeholder="Message"></textarea>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="12u">
+																		<ul class="actions">
+																			<li><input type="submit" class="button button-style1" value="Send" /></li>
+																			<li><input type="reset" class="button button-style2" value="Reset" /></li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</form>
+													</section>
+												<!-- /Contact Form -->
+
+											</div>
+											<div class="6u">
+											
+												<!-- Contacts -->
+													<section class="footer-two">
+														<div class="feature-list feature-list-small">
+															<div>
+																<div class="row">
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-home">Mailing Address</h3>
+																			<p>
+																				Unised<br>
+        IIT Kanpur<br>
+        208016
+																			</p>
+																		</section>
+																	</div>
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-comment">Social</h3>
+																			<p>
+																				
+																			</p>
+																		</section>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-envelope">Email</h3>
+																			<p>
+																				<a href="#">avant@iitk.ac.in</a>
+																			</p>
+																		</section>
+																	</div>
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-phone">Phone</h3>
+																			<p>
+																				+91-7388895199
+																			</p>
+																		</section>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</section>
+												<!-- /Contacts -->
+													
+											</div>
+										</div>
+									</div>
+									<hr />
+								</div>
+							<!-- /Footer -->
+
+							<!-- Copyright -->
+								<div id="copyright">
+									<span>
+										&copy; Unised. 
+									</span>
+								</div>
+							<!-- /Copyright -->
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Footer Wrapper -->
+
+	</body>
+</html>
+<!-- Page Ends Here -->
